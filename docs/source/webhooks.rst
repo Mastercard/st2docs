@@ -62,8 +62,9 @@ All the examples below assume JSON and as such, provide ``application/json`` for
 Using a Generic Webhook
 -----------------------
 
-By default, a generic webhook with the name ``st2`` is already registered. This
-webhook allows you to push arbitrary triggers to the API.
+By default, a generic webhook with the name ``st2`` is already registered. This webhook 
+allows you to push triggers other than ``⁠⁠⁠⁠st2.core.webhook`` to the API, triggering rules 
+that aren’t explicitly set to be webhooks.
 
 The body of this request needs to be JSON and must contain the following attributes:
 
